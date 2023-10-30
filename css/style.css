@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Philosopher', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav a:hover {
+    color: #DC780B;
+}
+
+.hero {
+    margin-bottom: 150px;
+}
+
+.hero-content h1 {
+    width: 555px;
+}
+
+.button-booking {
+    padding: 13px;
+    border-radius: 5px;
+    border: none;
+    background: var(--PRIMARY, #DC780B);
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button-booking:hover {
+    background-color: #5a3b19;
+    transition: all .3s ease-in-out;
+}
+
+.food {
+    border-radius: 5px;
+    border: 1.5px solid #DC780B;
+    opacity: 0.1;
+    padding: 13px;
+}
+
+.hero-heading {
+    color: var(--BLACK, #150C01);
+    font-family: Philosopher;
+    font-size: 48.83px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57.6px; /* 117.96% */
+}
+
+.head{
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+/* feature */
+.feature {
+    margin-bottom: 100px;
+}
+
+.feature-img {
+    padding: 22px;
+    border-radius: 65px;
+    background-color:rgb(227, 231, 230);
+}
+/* /feature */
+
+/* About Us */
+.about {
+    margin-bottom: 100px;
+}
+
+.about-body img {
+    border-radius: 10px;
+}
+
+.about-head {
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40.625px; /* 130% */
+}
+
+/* menu */
+.menu {
+    margin-bottom: 100px;
+}
+
+.menu-card-img {
+    border-radius: 25% 10%;
+}
+
+.menu-card {
+    border-radius: 78px 28px 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+}
+
+.menu li:hover {
+    background-color: #f4bb7f;
+    transition: all .3s ease-in-out;
+}
+
+.price {
+    color: #150C01;
+    font-family: Philosopher;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 96% */
+}
+
+.menu-btn {
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    color: #DC780B;
+}
+
+/* Take away */
+.take-away {
+    background: #FBF1E7;
+    background-size: 70%;
+}
+
+.aple {
+    padding: 13px 18px;
+    border-radius: 5px;
+    background-color: black;
+    color: #FFF;
+}
+
+.aple p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Google-Play {
+    padding: 13px 18px;
+    border-radius: 5px;
+    color: #100f0f;
+    opacity: 0.7;
+}
+
+.Google-Play p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* footer */
+.footer {
+    background-color: #252525;
+}
+
+.footer ul {
+    padding: 137px 0px 100px 0px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.footer p:hover {
+    color: blue;
+}
+
+/* Responsive */
+@media only screen and (max-width: 1400px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .container {
+      max-width: 720px;
+    }
+
+}
+
+  @media only screen and (max-width: 540px) {
+    .container {
+        max-width: 390px;
+    }
+
+    .nav-list {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-list a{
+        display: none;
+    }
+
+    .hero-body {
+        display: flex;
+        flex-wrap: wrap;
+        width: 360px;
+    }
+    
+}
+/* /responsive */
