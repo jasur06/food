@@ -19,10 +19,6 @@ body {
     margin-bottom: 150px;
 }
 
-.hero-content h1 {
-    width: 555px;
-}
-
 .button-booking {
     padding: 13px;
     border-radius: 5px;
@@ -202,6 +198,10 @@ body {
         max-width: 390px;
     }
 
+    nav {
+        margin-bottom: 30px;
+    }
+
     .nav-list {
         display: flex;
         align-items: center;
@@ -211,7 +211,27 @@ body {
         display: none;
     }
 
+    .hero {
+        margin-bottom: 30px;
+    }
+
     .hero-body {
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: column-reverse; */
+        width: 360px;
+    }
+
+    .hero-content {
+        margin-bottom: 100px;
+    }
+
+    .img {
+        /* width: 360px;
+        height: 280px; */
+    }
+
+    .text-secondary {
         display: flex;
         flex-wrap: wrap;
         width: 360px;
@@ -221,6 +241,11 @@ body {
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 20px;
+    }
+    
+    .about-body {
+        display: flex;
+        flex-wrap: wrap;
     }
     
 }
