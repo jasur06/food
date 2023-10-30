@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -218,7 +218,7 @@ body {
     .hero-body {
         display: flex;
         flex-wrap: wrap;
-        /* flex-direction: column-reverse; */
+        flex-direction: column-reverse;
         width: 360px;
     }
 
@@ -226,9 +226,9 @@ body {
         margin-bottom: 100px;
     }
 
-    .img {
-        /* width: 360px;
-        height: 280px; */
+    .img-hero img {
+        width: 360px;
+        height: 280px;
     }
 
     .text-secondary {
@@ -250,6 +250,20 @@ body {
 
     .about-body img {
         width: 360px;
+    }
+
+    .menu li {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 360px;
+    }
+
+    .menu-card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* width: 360px; */
     }
 
     .take-body {
