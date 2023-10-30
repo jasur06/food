@@ -247,6 +247,24 @@ body {
         display: flex;
         flex-wrap: wrap;
     }
+
+    .about-body img {
+        width: 360px;
+    }
+
+    .take-body {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .take-content {
+        margin-bottom: 40px;
+    }
+
+    .footer ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
     
 }
 /* /responsive */
