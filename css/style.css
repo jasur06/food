@@ -216,6 +216,12 @@ body {
         flex-wrap: wrap;
         width: 360px;
     }
+
+    .feature ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
     
 }
 /* /responsive */
